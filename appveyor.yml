@@ -1,4 +1,5 @@
 version: 1.0.{build}
 build: off
+- SET PATH=%PYTHON%;%PATH%
 test_script:
 - cmd: python cosines.py
