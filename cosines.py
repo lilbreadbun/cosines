@@ -23,5 +23,5 @@ for line in f:
         angle = float(splitup[1])
         cosine = math.cos(angle)
         print("{}\t\t{}\t\t{}".format(splitup[0], splitup[1], cosine))
-f.close
+f.close()
 
