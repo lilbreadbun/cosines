@@ -1,5 +1,11 @@
 version: 1.0.{build}
 build: off
-- SET PATH=%PYTHON%;%PATH%
+
+environment:
+  matrix:
+    - PYTHON: "C:\\Python33"
+      PYTHON_VERSION: "3.3.5"
+      PYTHON_ARCH: "32"
+
 test_script:
 - cmd: python cosines.py
