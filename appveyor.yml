@@ -1,4 +1,2 @@
-build_script: off
-
 test_script:
 - sh: python3 cosines.py
