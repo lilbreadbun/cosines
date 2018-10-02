@@ -2,4 +2,5 @@ version: 1.0.{build}
 build: off
 
 test_script:
+- "SET PATH=C:\\Python34;C:\\Python34\\Scripts;%PATH%"
 - python3 cosines.py
